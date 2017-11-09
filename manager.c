@@ -64,9 +64,6 @@ int Place_Order(table_index_type Table,
     case PASTA :
        Table_Data.Check_Total = Table_Data.Check_Total + 12.0;
        break;
-    case FISH :
-       Table_Data.Check_Total = Table_Data.Check_Total + 18.0;
-       break;
 	case PIZZA :
        Table_Data.Check_Total = Table_Data.Check_Total + 8.0;
        break;
