@@ -7,7 +7,7 @@
 enum boolean   { v_false, v_true };
 enum soups     { NO_SOUP, ONION, CHOWDER };
 enum salads    { NO_SALAD, CAESAR, GREEN };
-enum entrees   { NO_ENTREE, STEAK, CHICKEN, LOBSTER, PASTA, PIZZA, PORK,FISH};
+enum entrees   { NO_ENTREE, STEAK, CHICKEN, LOBSTER, PASTA, PIZZA,FISH};
 enum desserts  { NO_DESSERT, CAKE, PIE, FRUIT };
 enum beverages { NO_BEVERAGE, WINE, BEER, MIXED_DRINK, SODA };
 
