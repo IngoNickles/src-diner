@@ -70,9 +70,6 @@ int Place_Order(table_index_type Table,
 	case PIZZA :
        Table_Data.Check_Total = Table_Data.Check_Total + 8.0;
        break;
-	case PORK :
-       Table_Data.Check_Total = Table_Data.Check_Total + 15.0;
-       break;
     }
   
   Update_Table_Record(Table, Table_Data);
