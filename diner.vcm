@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="16">
+  <config>
+    <config>
+      <key>VCAST_CUSTOM_REPORT_FORMAT</key>
+      <value>HTML</value>
+    </config>
+    <saved-logs>5</saved-logs>
+    <build-directory-naming-strategy>COMPRESSED</build-directory-naming-strategy>
+    <root-source-directory>../../../</root-source-directory>
+  </config>
+  <project-id>1510057442</project-id>
+  <factor-config-options>1</factor-config-options>
+  <environment name="MANAGER" type="UNIT">
+    <language>1</language>
+    <is-monitored>0</is-monitored>
+    <config>
+      <original-environment-directory>.</original-environment-directory>
+    </config>
+  </environment>
+  <group name="c">
+    <environment name="MANAGER"/>
+  </group>
+  <source-collection name="Source_1">
+    <platform name="Windows">
+      <compiler>
+        <compiler>
+          <name>Microsoft_VisualC++_2013_C</name>
+          <config>
+            <config>
+              <key>WHITEBOX</key>
+              <value>YES</value>
+              <key>COVERAGE_TYPE</key>
+              <value>STATEMENT+MCDC</value>
+              <key>VCAST_COVERAGE_DATABASE_CACHE_SIZE</key>
+              <value>2000</value>
+              <key>C_COMPILER_TAG</key>
+              <value>VISUAL_CPP_2013</value>
+              <key>VCAST_DISPLAY_FUNCTION_COVERAGE</key>
+              <value>TRUE</value>
+              <key>VCAST_ENABLE_FUNCTION_CALL_COVERAGE</key>
+              <value>TRUE</value>
+            </config>
+            <search-directory type="TESTABLE_SOURCE_DIR">C:\VCAST\own\git\src</search-directory>
+          </config>
+        </compiler>
+        <testsuite name="TestSuite">
+          <group name="c"/>
+        </testsuite>
+      </compiler>
+    </platform>
+  </source-collection>
+  <search-directory type="TESTABLE_SOURCE_DIR">C:\VCAST\64x\Environments\c</search-directory>
+</project>
