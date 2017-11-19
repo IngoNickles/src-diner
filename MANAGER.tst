@@ -213,4 +213,5 @@ TEST.UNIT:manager
 TEST.SUBPROGRAM:Place_Order
 TEST.NEW
 TEST.NAME:Place_Order.001
+TEST.EXPECTED:manager.Place_Order.return:1
 TEST.END
